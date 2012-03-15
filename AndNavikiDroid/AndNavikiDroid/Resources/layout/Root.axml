@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20px"
+		android:layout_marginTop="10px"
+        android:layout_marginBottom="10px">
+		
+		
+		<LinearLayout
+	        android:id="@+id/LinearLayout02"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="20px"
+	        android:orientation="vertical">
+	
+	        <Button
+                android:id="@+id/btnNewRoute"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnNewRoute" />
+			
+			<Button
+                android:text="@string/btnRoutes"
+                android:id="@+id/btnRoutes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="@string/btnSettings"
+                android:id="@+id/btnSettings"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+			
+			
+			<Button
+                android:text="@string/btnQuit"
+                android:id="@+id/btnQuit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+		</LinearLayout>
+		
+		
+	</ScrollView>
+			
+</LinearLayout>
+

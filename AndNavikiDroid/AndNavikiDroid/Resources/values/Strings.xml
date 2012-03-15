@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">AndNaviki</string>
+	
+	<string name="btnNewRoute">Neue Route</string>
+	<string name="btnRoutes">Vorhandene Routen</string>
+	<string name="btnSettings">Einstellungen</string>
+	<string name="btnQuit">Beenden</string>
+	
+	<string name="lbPostionStart">Startposition</string>
+	<string name="btnMyLocation">Aktuelle Position</string>
+	<string name="lbPostionDestination">Ziel der Strecke</string>
+	<string name="lbRouteNewCalcType">Streckenoptimierung</string>
+	
+	<string name="CalcRouteType">Routenberechnung</string>
+	<string-array name="CalcRouteType_array">
+		<item>Optimale Strecke</item>
+		<item>Kürzeste Strecke</item>
+	</string-array>
+	<string name="btnCalulateRoute">Strecke berechnen</string>
+	
+</resources>
