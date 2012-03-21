@@ -4,11 +4,9 @@
     <Files>
       <File FileName="../../../../Projects/test11/test11/AppDelegate.cs" Line="15" Column="3" />
       <File FileName="../../../../Projects/xx1/xx1/AppDelegate.cs" Line="31" Column="46" />
-      <File FileName="AndNavikiDroid/Resources/layout/Root.axml" Line="24" Column="1" />
-      <File FileName="AndNavikiDroid/Root.cs" Line="25" Column="35" />
-      <File FileName="AndNavikiDroid/Resources/layout/Routes_New.axml" Line="32" Column="52" />
+      <File FileName="AndNavikiDroid/Resources/layout/Root.axml" Line="1" Column="1" />
+      <File FileName="AndNavikiDroid/Root.cs" Line="1" Column="1" />
       <File FileName="AndNavikiDroid/Resources/values/Strings.xml" Line="6" Column="38" />
-      <File FileName="AndNavikiDroid/Routes_New.cs" Line="7" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

@@ -12,11 +12,22 @@
 	<string name="lbPostionDestination">Ziel der Strecke</string>
 	<string name="lbRouteNewCalcType">Streckenoptimierung</string>
 	
+	<string name="Countries">Länderauswahl</string>
+	<string-array name="Countries_array">
+		<item>Deutschland</item>
+	</string-array>
+	
 	<string name="CalcRouteType">Routenberechnung</string>
 	<string-array name="CalcRouteType_array">
 		<item>Optimale Strecke</item>
 		<item>Kürzeste Strecke</item>
 	</string-array>
 	<string name="btnCalulateRoute">Strecke berechnen</string>
+	
+	<string name="lbUrl">Webadresse für GPX import</string>
+	<string name="btnUrlImport">Route importieren</string>
+
+	<string name="lbFile">Dateipfad für GPX import</string>
+	<string name="btnFileImport">Route importieren</string>
 	
 </resources>

@@ -23,14 +23,7 @@ namespace de.dhoffmann.mono.andnaviki
 			// and attach an event to it
 			Button btnNewRoute = FindViewById<Button> (Resource.Id.btnNewRoute);
 			btnNewRoute.Click += delegate {
-				
-				StartActivity(typeof(Routes_New));
-				/*
-				
-				Intent intent = new Intent(this.BaseContext, (Java.Lang.Class) new Routes_New().Class);
-				intent.AddFlags(ActivityFlags.NewTask);
-				StartActivity(intent);
-				*/
+				StartActivity(typeof(ProviderSelection));
 			};
 		}
 	}

@@ -47,8 +47,15 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Root.cs" />
-    <Compile Include="BusLog\RoutingProvider\AndNaviki\AndNaviki.cs" />
-    <Compile Include="Routes_New.cs" />
+    <Compile Include="ProviderSelection.cs" />
+    <Compile Include="BusLog\RoutingProvider\RoutingProviderHelper.cs" />
+    <Compile Include="BusLog\RoutingProvider\IRoutingProvider.cs" />
+    <Compile Include="BusLog\RoutingProvider\NavikiOrg\NavikiOrg.cs" />
+    <Compile Include="RoutesNew_NavikiOrg.cs" />
+    <Compile Include="BusLog\RoutingProvider\File\File.cs" />
+    <Compile Include="BusLog\RoutingProvider\Url\Url.cs" />
+    <Compile Include="RoutesNew_Url.cs" />
+    <Compile Include="RoutesNew_File.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -58,7 +65,10 @@
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable\Icon.png" />
     <AndroidResource Include="Resources\layout\Root.axml" />
-    <AndroidResource Include="Resources\layout\Routes_New.axml" />
+    <AndroidResource Include="Resources\layout\ProviderSelection.axml" />
+    <AndroidResource Include="Resources\layout\RoutesNew_NavikiOrg.axml" />
+    <AndroidResource Include="Resources\layout\RoutesNew_File.axml" />
+    <AndroidResource Include="Resources\layout\RoutesNew_Url.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

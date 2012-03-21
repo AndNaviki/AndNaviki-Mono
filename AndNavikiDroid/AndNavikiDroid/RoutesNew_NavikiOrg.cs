@@ -6,14 +6,14 @@ using Android.Widget;
 namespace de.dhoffmann.mono.andnaviki
 {
 	[Activity (Label = "AndNaviki - Neue Route")]
-	public class Routes_New : Activity
+	public class RoutesNew_NavikiOrg : Activity
 	{
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
 			// Set our view from the "main" layout resource
-			SetContentView (Resource.Layout.Routes_New);
+			SetContentView (Resource.Layout.RoutesNew_NavikiOrg);
 			
 			Spinner spnCalcRouteType = FindViewById<Spinner>(Resource.Id.spnCalcRouteType);
 			// spnCalcRouteType.ItemSelected += new EventHandler<ItemEventArgs>(spnCalcRouteType_ItemSelected);

@@ -22,8 +22,15 @@
 	        android:layout_height="wrap_content"
 	        android:layout_marginRight="20px"
 	        android:orientation="vertical">
-
-
+			
+			
+			<LinearLayout
+		        android:id="@+id/llCProviderContainr"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="20px"
+		        android:orientation="vertical" />
+			
 			<TextView
                 android:text="@string/lbPostionStart"
                 android:layout_width="wrap_content"
