@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndNavikiTouch", "AndNavikiTouch\AndNavikiTouch.csproj", "{BF0B5709-99CB-4706-8C79-C7994A7830AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF0B5709-99CB-4706-8C79-C7994A7830AD}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{BF0B5709-99CB-4706-8C79-C7994A7830AD}.Debug|iPhone.Build.0 = Debug|iPhone
+		{BF0B5709-99CB-4706-8C79-C7994A7830AD}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{BF0B5709-99CB-4706-8C79-C7994A7830AD}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{BF0B5709-99CB-4706-8C79-C7994A7830AD}.Release|iPhone.ActiveCfg = Release|iPhone
+		{BF0B5709-99CB-4706-8C79-C7994A7830AD}.Release|iPhone.Build.0 = Release|iPhone
+		{BF0B5709-99CB-4706-8C79-C7994A7830AD}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{BF0B5709-99CB-4706-8C79-C7994A7830AD}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = AndNavikiTouch\AndNavikiTouch.csproj
+	EndGlobalSection
+EndGlobal

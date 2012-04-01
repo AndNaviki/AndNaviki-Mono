@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AndNavikiTouch/Screens/CountrySelection.cs">
+    <Files>
+      <File FileName="AndNavikiTouch/Screens/ProviderSelection.cs" Line="32" Column="36" />
+      <File FileName="AndNavikiTouch/Screens/CountrySelection.cs" Line="8" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/nn/Programmieren/Mono/AndNaviki/AndNavikiTouch/AndNavikiTouch/Screens/CountrySelection.cs" line="189" />
+      <Breakpoint file="/Users/nn/Programmieren/Mono/AndNaviki/AndNavikiTouch/AndNavikiTouch/Screens/CountrySelection.cs" line="184" />
+      <Breakpoint file="/Users/nn/Programmieren/Mono/AndNaviki/AndNavikiTouch/AndNavikiTouch/Screens/CountrySelection.cs" line="78" />
+      <Breakpoint file="/Users/nn/Programmieren/Mono/AndNaviki/AndNavikiTouch/AndNavikiTouch/Screens/CountrySelection.cs" line="60" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

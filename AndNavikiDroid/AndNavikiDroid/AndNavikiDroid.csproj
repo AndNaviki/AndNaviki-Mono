@@ -56,6 +56,7 @@
     <Compile Include="BusLog\RoutingProvider\Url\Url.cs" />
     <Compile Include="RoutesNew_Url.cs" />
     <Compile Include="RoutesNew_File.cs" />
+    <Compile Include="BusLog\DataBase\Version.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -71,4 +72,7 @@
     <AndroidResource Include="Resources\layout\RoutesNew_Url.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="BusLog\DataBase\" />
+  </ItemGroup>
 </Project>
