@@ -49,8 +49,7 @@ namespace de.dhoffmann.mono.andnaviki
 			lstProvider.Adapter = adapterProvider;
 			
 			// Providerauswahl 
-			lstProvider.ItemClick += delegate(object sender, ItemEventArgs e) {
-				
+			lstProvider.ItemClick += delegate(object sender, AdapterView.ItemClickEventArgs e) {
 				switch(((Android.Widget.TextView)e.View).Text.ToLower()) 
 				{
 					case "naviki.org":
