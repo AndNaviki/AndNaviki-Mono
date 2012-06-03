@@ -26,7 +26,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-namespace de.dhoffmann.mono.andnaviki
+namespace de.dhoffmann.mono.andnaviki.droid
 {
 	[Activity (Label = "AndNaviki", MainLauncher = true)]
 	public class Root : Activity

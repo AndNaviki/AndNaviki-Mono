@@ -19,7 +19,7 @@
 
 using System;
 
-namespace de.dhoffmann.mono.andnaviki
+namespace de.dhoffmann.mono.andnaviki.buslog.database
 {
 	public class Version
 	{

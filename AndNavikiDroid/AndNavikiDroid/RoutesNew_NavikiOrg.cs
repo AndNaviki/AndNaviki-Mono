@@ -22,7 +22,7 @@ using Android.App;
 using Android.OS;
 using Android.Widget;
 
-namespace de.dhoffmann.mono.andnaviki
+namespace de.dhoffmann.mono.andnaviki.droid
 {
 	[Activity (Label = "AndNaviki - Neue Route")]
 	public class RoutesNew_NavikiOrg : Activity

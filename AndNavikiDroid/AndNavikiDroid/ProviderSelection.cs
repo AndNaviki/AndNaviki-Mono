@@ -24,7 +24,7 @@ using Android.Widget;
 using Android.Content;
 using de.dhoffmann.mono.andnaviki.buslog.routingprovider;
 
-namespace de.dhoffmann.mono.andnaviki
+namespace de.dhoffmann.mono.andnaviki.droid
 {
 	[Activity (Label = "AndNaviki - Providerauswahl")]
 	public class ProviderSelection : Activity

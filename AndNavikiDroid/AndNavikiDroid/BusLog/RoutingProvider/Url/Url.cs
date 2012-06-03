@@ -20,7 +20,7 @@
 using System;
 using de.dhoffmann.mono.andnaviki.buslog.routingprovider;
 
-namespace de.dhoffmann.mono.andnaviki
+namespace de.dhoffmann.mono.andnaviki.buslog.routingprovider.url
 {
 	public class Url : IRoutingProvider
 	{
