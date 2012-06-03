@@ -1,49 +1,58 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!--
-/*
- * This file is part of AndNaviki
- * (based on MoSync examples)
- * Copyright (C) 2011 David Hoffmann
- *
- * AndNaviki is free software; you can redistribute it and/or
- * modify it under the terms of the GNU General Public License
- * as published by the Free Software Foundation, version 2.
- *
- * AndNaviki is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with AndNaviki; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
- */
--->
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-
-		<TextView
-	        android:text="@string/lbFile"
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-			android:layout_marginTop="20px"
-			android:layout_marginBottom="20px" />
-	
-		<EditText
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="Startadresse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etFileStartAddr" />
+    <TextView
+        android:text="Zieladresse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etFileZielAddr" />
+    <TextView
+        android:text="@string/lbFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <EditText
             android:text=""
-            android:id="@+id/etUrl"
+            android:id="@+id/etFilename"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" />
-	
-		<Button
-	        android:text="@string/btnFileImport"
-	        android:id="@+id/btnMyLocationStart"
-	        android:layout_width="fill_parent"
-	        android:layout_height="wrap_content"
-			android:layout_marginTop="20px"	/>
-
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0.0dp"
+            android:singleLine="true" />
+    <!--
+        <Button
+            android:text="Open"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/btnFileOpen" />
+            -->
+    </LinearLayout>
+    <Button
+        android:text="@string/btnFileImport"
+        android:id="@+id/btnFileImport"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px" />
 </LinearLayout>
-		

@@ -25,6 +25,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using de.dhoffmann.mono.andnaviki.buslog.database;
 
 namespace de.dhoffmann.mono.andnaviki.droid
 {
@@ -37,6 +38,9 @@ namespace de.dhoffmann.mono.andnaviki.droid
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Root);
+			
+			// Datenbankenschema prüfen/aktualisieren
+			new DBSchema().UpdateDBSchema();
 
 			// Get our button from the layout resource,
 			// and attach an event to it

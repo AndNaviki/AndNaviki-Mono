@@ -22,7 +22,9 @@ using Android.App;
 using Android.OS;
 using Android.Widget;
 using Android.Content;
+using de.dhoffmann.mono.andnaviki.buslog.database;
 using de.dhoffmann.mono.andnaviki.buslog.routingprovider;
+using System.Collections.Generic;
 
 namespace de.dhoffmann.mono.andnaviki.droid
 {
@@ -50,16 +52,39 @@ namespace de.dhoffmann.mono.andnaviki.droid
 			
 			// Providerauswahl 
 			lstProvider.ItemClick += delegate(object sender, AdapterView.ItemClickEventArgs e) {
+				
+				Spinner spnCntry = FindViewById<Spinner>(Resource.Id.spnCountry);
+				
+				string cntryID = null;
+				
+				foreach(KeyValuePair<string, string> kvpCountry in new DBCountries().GetCountries())
+				{
+					if (kvpCountry.Value == (string)spnCntry.SelectedItem)
+					{
+						cntryID = kvpCountry.Key;
+						break;
+					}
+				}
+				
+				Intent intent;
+				
 				switch(((Android.Widget.TextView)e.View).Text.ToLower()) 
 				{
 					case "naviki.org":
-						StartActivity(typeof(RoutesNew_NavikiOrg));
+						intent = new Intent(this, typeof(RoutesNew_NavikiOrg));
+						intent.PutExtra("CountryID", cntryID);
+						StartActivity(intent);
 						break;
 					case "datei":
-						StartActivity(typeof(RoutesNew_File));
+						intent = new Intent(this, typeof(RoutesNew_File));
+						intent.PutExtra("CountryID", cntryID);
+						StartActivity(intent);
+						StartActivity(intent);
 						break;
 					case "webadresse":
-						StartActivity(typeof(RoutesNew_Url));
+						intent = new Intent(this, typeof(RoutesNew_Url));
+						intent.PutExtra("CountryID", cntryID);
+						StartActivity(intent);
 						break;
 				}
 			};

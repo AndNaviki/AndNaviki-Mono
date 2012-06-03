@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
@@ -56,7 +58,10 @@
     <Compile Include="BusLog\RoutingProvider\Url\Url.cs" />
     <Compile Include="RoutesNew_Url.cs" />
     <Compile Include="RoutesNew_File.cs" />
-    <Compile Include="BusLog\DataBase\Version.cs" />
+    <Compile Include="BusLog\DataBase\DataBase.cs" />
+    <Compile Include="BusLog\DataBase\DBRoute.cs" />
+    <Compile Include="BusLog\DataBase\DBSchema.cs" />
+    <Compile Include="BusLog\DataBase\DBCountries.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
